@@ -1,0 +1,305 @@
+Admin Created
+------ Category Creation --------
+(True, 'Category Added')
+(True, 'Category Added')
+
+------ Seller and Customer Creation -------------
+------- Printing All Customers ---------------
+{
+     "id": "ed81d7d6-09bc-11ed-994b-703217079bcf",
+     "userName": "hari32",
+     "name": "Hari",
+     "age": 25,
+     "gender": "M",
+     "cart": {
+          "productList": []
+     },
+     "addresses": [],
+     "wishlist": {
+          "productList": []
+     },
+     "orderList": []
+}
+{
+     "id": "ed81d7d8-09bc-11ed-a976-703217079bcf",
+     "userName": "snita32",
+     "name": "snita",
+     "age": 35,
+     "gender": "F",
+     "cart": {
+          "productList": []
+     },
+     "addresses": [],
+     "wishlist": {
+          "productList": []
+     },
+     "orderList": []
+}
+------- Printing All Sellers ---------------
+{
+     "id": "ed81d7d5-09bc-11ed-8d75-703217079bcf",
+     "userName": "jash29",
+     "name": "Jash",
+     "age": 21,
+     "gender": "M",
+     "orderList": [],
+     "address": null
+}
+{
+     "id": "ed81d7d7-09bc-11ed-92d0-703217079bcf",
+     "userName": "ashley29",
+     "name": "Ashley",
+     "age": 30,
+     "gender": "F",
+     "orderList": [],
+     "address": null
+}
+------- Address Function ---------------
+(True, 'Address Added')
+(True, 'Address Updated')
+(True, 'Address Added')
+(True, 'Address Deleted')
+---------- Print Customer by Username ----------------
+{
+     "id": "ed81d7d6-09bc-11ed-994b-703217079bcf",
+     "userName": "hari32",
+     "name": "Hari",
+     "age": 25,
+     "gender": "M",
+     "cart": {
+          "productList": []
+     },
+     "addresses": [
+          {
+               "label": "Work",
+               "name": "Hari Ram",
+               "houseNo": 250,
+               "street": "koi bhi street",
+               "city": "Mumbai",
+               "pinCode": 400021,
+               "contact": 9234431145
+          }
+     ],
+     "wishlist": {
+          "productList": []
+     },
+     "orderList": []
+}
+---------- Print Seller by Username ----------------
+{
+     "id": "ed81d7d5-09bc-11ed-8d75-703217079bcf",
+     "userName": "jash29",
+     "name": "Jash",
+     "age": 21,
+     "gender": "M",
+     "orderList": [],
+     "address": null
+}
+---------- Product Creation --------------
+(True, 'Product Added')
+(True, 'Product Added')
+
+----------- Seller1 Products ----------------
+ed829b29-09bc-11ed-be71-703217079bcf     Mobile          200     15000   jash29          Electronics
+
+----------- Seller2 Products ----------------
+ed829b2a-09bc-11ed-8d0f-703217079bcf     Sofa    25      3000    ashley29        Furniture
+
+----------- All Products ------------------
+Electronics
+ed829b29-09bc-11ed-be71-703217079bcf     Mobile          200     15000   jash29          Electronics
+Furniture
+ed829b2a-09bc-11ed-8d0f-703217079bcf     Sofa    25      3000    ashley29        Furniture
+
+------------ Add to Cart -----------------
+(True, 'Item Added to Cart')
+
+------------ Cart ----------------
+ed829b29-09bc-11ed-be71-703217079bcf     Mobile          10      15000   jash29          Electronics
+
+------------ Add to Wishlist -----------------
+(True, 'Item Added to wishlist')
+
+------------ Wishlist ----------------
+ed829b2a-09bc-11ed-8d0f-703217079bcf     Sofa    In Stock        3000    ashley29        Furniture
+
+------------ Place Order ----------------
+(True, 'Order Placed', 'Order Id: 0')
+
+------------ Print Order ----------------
+0       False
+{
+     "label": "Work",
+     "name": "Hari Ram",
+     "houseNo": 250,
+     "street": "koi bhi street",
+     "city": "Mumbai",
+     "pinCode": 400021,
+     "contact": 9234431145
+}
+ed829b29-09bc-11ed-be71-703217079bcf     Mobile          10      15000   jash29          Electronics
+
+------------ Display All Products ----------------
+Electronics
+ed829b29-09bc-11ed-be71-703217079bcf     Mobile          190     15000   jash29          Electronics
+Furniture
+ed829b2a-09bc-11ed-8d0f-703217079bcf     Sofa    25      3000    ashley29        Furniture
+
+------------ Wishlist ----------------
+ed829b2a-09bc-11ed-8d0f-703217079bcf     Sofa    In Stock        3000    ashley29        Furniture
+
+------------ Wishlist to Cart ----------------
+(True, 'Item Added to Cart')
+
+------------ Wishlist ----------------
+
+------------ Cart ----------------
+ed829b2a-09bc-11ed-8d0f-703217079bcf     Sofa    2       3000    ashley29        Furniture
+
+------------ Cart to Wishlist ----------------
+(True, 'Item Added to wishlist')
+
+------------ Wishlist ----------------
+ed829b2a-09bc-11ed-8d0f-703217079bcf     Sofa    In Stock        3000    ashley29        Furniture
+
+------------ Cart ----------------
+
+------------ Delete from Wishlist ----------------
+(True, <Product.Product object at 0x00000186F102C7C0>)
+
+------------ Wishlist ----------------
+
+----------- All Products ------------------
+Electronics
+ed829b29-09bc-11ed-be71-703217079bcf     Mobile          190     15000   jash29          Electronics
+Furniture
+ed829b2a-09bc-11ed-8d0f-703217079bcf     Sofa    25      3000    ashley29        Furniture
+
+------------ Add to Cart -----------------
+(True, 'Item Added to Cart')
+
+------------ Cart ----------------
+ed829b29-09bc-11ed-be71-703217079bcf     Mobile          100     15000   jash29          Electronics
+(True, 'Address Added')
+
+------------ Place Order ----------------
+(True, 'Order Placed', 'Order Id: 1')
+
+------------ Print Order ----------------
+1       False
+{
+     "label": "Work",
+     "name": "snita32",
+     "houseNo": 100,
+     "street": "koi bhi street2",
+     "city": "Mumbai",
+     "pinCode": 400021,
+     "contact": 9234411115
+}
+ed829b29-09bc-11ed-be71-703217079bcf     Mobile          100     15000   jash29          Electronics
+
+------------ Display All Products ----------------
+Electronics
+ed829b29-09bc-11ed-be71-703217079bcf     Mobile          90      15000   jash29          Electronics
+Furniture
+ed829b2a-09bc-11ed-8d0f-703217079bcf     Sofa    25      3000    ashley29        Furniture
+
+------------ Update Stock ----------------
+(True, 150, 'is the updated stock')
+
+------------ Display All Products ----------------
+Electronics
+ed829b29-09bc-11ed-be71-703217079bcf     Mobile          150     15000   jash29          Electronics
+Furniture
+ed829b2a-09bc-11ed-8d0f-703217079bcf     Sofa    25      3000    ashley29        Furniture
+
+------------ Seller1 Orders ----------------
+0       False
+{
+     "label": "Work",
+     "name": "Hari Ram",
+     "houseNo": 250,
+     "street": "koi bhi street",
+     "city": "Mumbai",
+     "pinCode": 400021,
+     "contact": 9234431145
+}
+ed829b29-09bc-11ed-be71-703217079bcf     Mobile          10      15000   jash29          Electronics
+1       False
+{
+     "label": "Work",
+     "name": "snita32",
+     "houseNo": 100,
+     "street": "koi bhi street2",
+     "city": "Mumbai",
+     "pinCode": 400021,
+     "contact": 9234411115
+}
+ed829b29-09bc-11ed-be71-703217079bcf     Mobile          100     15000   jash29          Electronics
+
+------------ Seller2 Orders ----------------
+
+------------ Fullfill order 0 ----------------
+------ Bill ------
+{
+     "billId": "ed82e94d-09bc-11ed-a733-703217079bcf",
+     "productNames": [
+          "Mobile"
+     ],
+     "prices": [
+          15000
+     ],
+     "quantity": [
+          10
+     ],
+     "sellerName": "Jash",
+     "paymentMethod": "Credit",
+     "totalBill": 150000
+}
+(True, 'Fullfiled')
+
+------------ Seller1 Orders ----------------
+0       True
+{
+     "label": "Work",
+     "name": "Hari Ram",
+     "houseNo": 250,
+     "street": "koi bhi street",
+     "city": "Mumbai",
+     "pinCode": 400021,
+     "contact": 9234431145
+}
+ed829b29-09bc-11ed-be71-703217079bcf     Mobile          10      15000   jash29          Electronics
+1       False
+{
+     "label": "Work",
+     "name": "snita32",
+     "houseNo": 100,
+     "street": "koi bhi street2",
+     "city": "Mumbai",
+     "pinCode": 400021,
+     "contact": 9234411115
+}
+ed829b29-09bc-11ed-be71-703217079bcf     Mobile          100     15000   jash29          Electronics
+
+------------ Cancel Order ----------------
+(True, 'Order Removed')
+
+------------ Seller1 Orders ----------------
+0       True
+{
+     "label": "Work",
+     "name": "Hari Ram",
+     "houseNo": 250,
+     "street": "koi bhi street",
+     "city": "Mumbai",
+     "pinCode": 400021,
+     "contact": 9234431145
+}
+ed829b29-09bc-11ed-be71-703217079bcf     Mobile          10      15000   jash29          Electronics
+
+------------ Display All Products ----------------
+Electronics
+ed829b29-09bc-11ed-be71-703217079bcf     Mobile          250     15000   jash29          Electronics
+Furniture
+ed829b2a-09bc-11ed-8d0f-703217079bcf     Sofa    25      3000    ashley29        Furniture
